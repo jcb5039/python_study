@@ -10,19 +10,19 @@ price = 3000        # 숫자로 된 가격
 text_km = '5.5'     # 글자로 된 거리
 
 # (1) text_age를 정수로 바꿔서 담으세요. → 25
-age = None
+age = int(text_age)
 
 # (2) 위의 age에 1을 더한 값을 담으세요. → 26
-next_age = None
+next_age = age + 1
 
 # (3) price 뒤에 '원'을 붙인 글자를 만드세요. → '3000원'
-price_text = None
+price_text = str(price) + '원'
 
 # (4) text_km를 실수로 바꿔서 담으세요. → 5.5
-km = None
+km = float(text_km)
 
 # (5) 9.99를 정수로 바꾼 값을 담으세요. 결과를 먼저 예측해 보세요!
-cut = None
+cut = int(9.99)
 
 # ───── 채점 코드 ─────
 # 여기부터는 채점용이에요. 지금은 읽지 않아도 돼요. (9장에서 배우는 '함수'로 만들었어요)
